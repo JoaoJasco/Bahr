@@ -1,0 +1,109 @@
+body {
+    background-color:#28282B; /* Matte Black */
+    /*background-color:#343434;*/ /* Jet Black */
+    color:aliceblue;
+}
+
+    .body-header {
+        background-color: #000;
+        width: 100%;
+        z-index: 1;
+        height: 70px; /* Ajustei a altura para um melhor alinhamento */
+        display: flex;
+        align-items: center; /* Alinha verticalmente os itens */
+        justify-content: space-between; /* Distribui espaço entre o h2 e o nav */
+        padding: 0 20px; /* Adicionei padding horizontal */
+        box-shadow: 2px 2px 3px rgba(101, 101, 101, 0.3);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        padding-right: 20px;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        background-color: #6495ED;
+        background-image: none;
+        border-radius: 18px;
+        cursor: pointer;
+        letter-spacing: .85px;
+        outline: 0;
+        padding: 10px 16px;
+        margin-right: 25px;
+        box-shadow: none;
+        font-weight: 600;
+    }
+    
+    a:hover {
+        background-color: #5078c5; /* Cor mais escura no hover */
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+
+/* main section /*
+
+/* Container principal */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Altura mínima para centralizar verticalmente */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container da logo */
+.logo-container {
+    margin-bottom: 30px; /* Espaço entre a logo e o conteúdo */
+}
+
+.logo {
+    max-width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+/* Container do conteúdo */
+.content-container {
+    max-width: 600px; /* Limita a largura do conteúdo para melhor leitura */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+}
+
+.cta-button {
+    background-color: #64b5f6 /*var(--color-accent)*/;
+    color: var(--color-text);
+    padding: 12px 24px;
+    border-radius: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #5078c5; /* Cor mais escura no hover */
+}
