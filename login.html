@@ -103,10 +103,10 @@
             <img src="images/Bahr_Fundo_Branco.png" width="50%" height="50%">
         </div>
         <h2>Login</h2>
-        <form action="#" method="POST">
+        <form action="login.html" method="post">
             <div class="form-group">
                 <label for="username">Nome de usuário ou email:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div class="form-group">
@@ -114,12 +114,23 @@
                 <input type="password" id="password" name="password" required>
             </div>
 
-            <button type="submit">Entrar</button>
+            <button type="submit" value="login">Entrar</button>
+
+            <!--
+            <form action="login" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"><br><br>
+            <input type="submit" value="Login">
+            </form>
+            -->
 
             <div class="forgot-password">
                 <a href="#">Esqueceu a senha?</a>
             </div>
         </form>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>
