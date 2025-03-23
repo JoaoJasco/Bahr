@@ -14,4 +14,4 @@ loginButton.addEventListener('click', (e) => {
         // Mostrar mensagem de erro
         alert('Email ou senha incorretos!');
     }
-});
+}); 
